@@ -1,14 +1,14 @@
 <?php
-
+ 
 Class ControladorPaginas{
     public function inicio(){
 
-    include_once("View/pagina/inicio.php");
+    include_once("./View/pagina/inicio.php");
     }
 
     public function error(){
 
-        include_once("View/pagina/error.php");
+        include_once("./View/pagina/error.php");
         
     }
 
